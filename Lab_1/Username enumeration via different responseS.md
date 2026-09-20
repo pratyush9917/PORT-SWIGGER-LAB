@@ -12,20 +12,20 @@ To successfully solve this lab, the following things are necessary
 
 * First, try to login using any random username and password so that the request registers in the HTTP History of Proxy
 
-![alt text](/image.png)
+![alt text](image.png)
 
-![alt text](/image2.png)
+![alt text](image2.png)
 
 * After the failed login attempt, check HTTP History and a login URL for POST method should appear
 
-![alt text](/image3.png)
+![alt text](image3.png)
 
 * Right click the POST request and send it to repeter
 * There, after sending the request again, it shows invalid username, so we have to find a valid username first. So, right click and send it to Intruder
 * Inside intruder, select sniper attack, highlight the username value and click add to make it a payload
 * Then, make the payload type into a simple list and paste the list of usernames provided
 
-![alt text](/image4.png)
+![alt text](image4.png)
 
 * Now, start the attack. 
 * After the attack, look at the length column of the result. It's value will be same for all payloads except one and that one payload is the one with correct username. Now, send that request to the repeater and look at the response received
