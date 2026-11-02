@@ -9,4 +9,4 @@ In this, there is no restriction to change the domain of your email to teh domai
 * After sometime, a /admin GET request will appear. Open it in browser and you will see admin panel only for dontwannacry user. This is company domain.
 * Now, register normally using teh email provided in the email client.
 * After registering, change your email domain to @dontwannacry.com.
-* After it is updated, an admin panel will show up. Inside that, deelete user carlos to solve the lab.
+* After it is updated, an admin panel will show up. Inside that, delete user carlos to solve the lab.
